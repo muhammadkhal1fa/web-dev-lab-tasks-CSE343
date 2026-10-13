@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Khalifa | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Muhammad Khalifa</h1>
+        <p>Electrical &amp; Computer Engineering Undergrad | Aspiring Agentic Software Engineer</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            My interests center around finding real business problems, thinking through
+            practical and useful solutions, and then turning those solutions into
+            well-designed software systems. I enjoy understanding how the different
+            components should come together and how to build something that is scalable,
+            secure, and genuinely useful.
+        </p>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- Project One -->
+            <div class="project-card">
+                <h3>Cloud-Native Product Price Comparison Platform</h3>
+
+                <p class="technologies">
+                    React.js / Flask / MySQL
+                </p>
+
+                <p>
+                    Designed and developed a cloud-native product price comparison
+                    platform using React.js, Flask, and MySQL. Architected the backend
+                    as a microservices-based system with independent services
+                    communicating through REST APIs. Containerized services using Docker
+                    and managed external traffic through Kong API Gateway. Leveraged IBM
+                    Cloud Code Engine for serverless deployment while utilizing
+                    Kubernetes/OpenShift concepts throughout development. Validated
+                    service communication and API functionality using Postman and cURL.
+                </p>
+            </div>
+
+
+            <!-- Project Two -->
+            <div class="project-card">
+                <h3>Scene Style Image Classifier</h3>
+
+                <p class="technologies">
+                    Python / PyTorch / OpenCV / scikit-learn
+                </p>
+
+                <p>
+                    Developed a dual-encoder interior scene classifier combining CLIP
+                    ViT-Large and ConvNeXt to classify 17 interior design styles.
+                    Implemented MixUp/CutMix augmentation, CLAHE preprocessing, prompt
+                    ensembling, patch attention pooling, mixed-precision training,
+                    cosine learning-rate scheduling, and stochastic weight averaging
+                    (SWA). Achieved 5th place among 30 teams.
+                </p>
+            </div>
+
+
+            <!-- Project Three -->
+            <div class="project-card">
+                <h3>Stock It – Treap-Based Stockbroker</h3>
+
+                <p class="technologies">
+                    C++ / Qt6
+                </p>
+
+                <p>
+                    Engineered a high-performance stock trading engine using a custom
+                    Treap data structure for efficient order-book operations.
+                    Implemented price-time priority matching, maker/taker execution
+                    rules, partial fills, order cancellations, and automated liquidity
+                    simulation. Designed a five-layer architecture consisting of the
+                    GUI, Order Book, Order Matching Engine, Treap, and Database.
+                    Built a live Qt6 interface with execution logs, charts, and
+                    real-time updates. Ranked #1 among 48 teams with a full project
+                    grade.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea placeholder="Your Message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Muhammad Khalifa, All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
